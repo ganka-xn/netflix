@@ -2,7 +2,7 @@
 
 Информация о каждом сервисе:
 
-[Content-service](Write%20own%20Netflix%20%F0%9F%91%B9%20137f09a12cfb8099b9eaf0bf320e51a6/Content-service%2013bf09a12cfb80ab850cda035344b79b.md)
+[Content-service](https://github.com/antonkupreychik/netflix/wiki/Content%E2%80%90service)
 
 [Rating Service](Write%20own%20Netflix%20%F0%9F%91%B9%20137f09a12cfb8099b9eaf0bf320e51a6/Rating%20Service%2013bf09a12cfb8087a525f1ae47e80e07.md)
 
