@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: rating-service-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/netflix
+    username: ganka
+    password: ganka
+    hikari:
+      schema: rating
+
+logging:
+  level:
+    root: INFO
+    ru.javarush.ratingserviceapi: DEBUG
+  file:
+    name: ./rating-service-api/logs/rating-service-api.log
+
+    #  pattern:
+    #    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+    #    file: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+#    path: rating-service-api/logs
+
+    # Дополнительная настройка:
+    # append: true  # Добавляет новый лог в существующий файл (по умолчанию - false)
+
+  logback:
+    rollingPolicy:
+      fileNamePattern: ./rating-service-api/logs/rating-service-api-%d{yyyy-MM-dd}.%i.log
+      maxFileSize: 10MB
+      maxHistory: 30
+
+
